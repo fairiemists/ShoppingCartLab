@@ -4,8 +4,20 @@ class ShoppingCart:
 
     def __init__(self):
         self.product = Product()
-        self.shopping_list = list()   
+        self.product_list = []   
 
+
+    def add_product_to_cart(self):
+        self.product = Product()
+
+
+    def remove_product_from_cart(self, product_name):
+        self.product = product_name
+
+    def empty_cart(self):
+        self.product_list
+
+    
 
 
 

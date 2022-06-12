@@ -8,6 +8,10 @@ class Customer:
         self.cart_object = ShoppingCart()
 
 
+    def add_new_product(self):
+        self.cart_object = 
+
+
 
 # Method to add a new product to the shopping cart 
 # (within this method you will call the shopping cart's add product method)

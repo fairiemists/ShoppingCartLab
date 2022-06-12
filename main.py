@@ -1,6 +1,11 @@
 from customer import Customer
 from product import Product
+from shopping_cart import ShoppingCart
 
+
+customer_one = Customer("Sally")
+
+print(customer_one.name)
 
 
 
