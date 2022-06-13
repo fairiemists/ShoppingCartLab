@@ -1,11 +1,14 @@
 from customer import Customer
 from product import Product
-from shopping_cart import ShoppingCart
 
 
 customer_one = Customer("Sally")
 
 print(customer_one.name)
+
+product_one = Product("shampoo", 4, "beauty")
+product_two = Product("nail polish", 2, "beauty")
+product_three = Product("Coke", 2, "grocery")
 
 
 
@@ -19,8 +22,7 @@ print(customer_one.name)
 
 # Print the customer's name to the terminal
 
-# Call the customer's 
-# add product to shopping cart method three times 
+# Call the customer's add product to shopping cart method three times 
 # & add the three products objects you created
 
 # Call the customer's view products method

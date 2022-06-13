@@ -1,6 +1,3 @@
-from cgi import print_exception
-from tokenize import ContStr
-from unicodedata import name
 
 
 class Product:
@@ -9,5 +6,6 @@ class Product:
         self.name = product_name
         self.price = product_price 
         self.category = product_category
+
 
     

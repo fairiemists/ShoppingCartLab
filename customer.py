@@ -5,11 +5,16 @@ class Customer:
 
     def __init__(self, name) -> None:
         self.name = name
-        self.cart_object = ShoppingCart()
+        self.cart = ShoppingCart()
 
 
-    def add_new_product(self):
-        self.cart_object = 
+    def add_new_product(self, product):
+        self.cart.add_product_to_cart(product)   # got syntax from solution walkthrough
+
+
+    def see_items_in_cart(self):   # got from solution walkthrough
+        for product in self.cart.products:
+            print(product.product_name)
 
 
 
